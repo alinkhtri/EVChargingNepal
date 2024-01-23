@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E127FBFE2B4AB796001D425F /* ChargingStationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127FBFD2B4AB796001D425F /* ChargingStationDetailView.swift */; };
 		E1482C682A88B4F900365602 /* EVChargingNepalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C672A88B4F900365602 /* EVChargingNepalApp.swift */; };
-		E1482C6A2A88B4F900365602 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C692A88B4F900365602 /* ContentView.swift */; };
-		E1482C6C2A88B4FA00365602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1482C6B2A88B4FA00365602 /* Assets.xcassets */; };
 		E1482C6F2A88B4FA00365602 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1482C6E2A88B4FA00365602 /* Preview Assets.xcassets */; };
+		E1482C762A88B50500365602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1482C752A88B50500365602 /* Assets.xcassets */; };
+		E1482C812A88B6AA00365602 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C802A88B6AA00365602 /* MapView.swift */; };
+		E1482C832A88B73400365602 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C822A88B73400365602 /* MapViewModel.swift */; };
+		E1482C862A88B88700365602 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C852A88B88700365602 /* LocationManager.swift */; };
+		E1482C892A88B9E400365602 /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C882A88B9E400365602 /* MKCoordinateRegion+Extensions.swift */; };
+		E1482C8C2A88BC9C00365602 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C8B2A88BC9C00365602 /* LocalSearchService.swift */; };
+		E1482C8E2A88C15000365602 /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C8D2A88C15000365602 /* SearchResultItem.swift */; };
+		E1482C902A88CDE500365602 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1482C8F2A88CDE500365602 /* HomeView.swift */; };
+		E14A67782A88FB3000962390 /* EVChargingStationData.json in Resources */ = {isa = PBXBuildFile; fileRef = E14A67772A88FB3000962390 /* EVChargingStationData.json */; };
+		E14A677A2A88FB5400962390 /* EVChargingStationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A67792A88FB5400962390 /* EVChargingStationItem.swift */; };
+		E14A677D2A88FF5500962390 /* EVChargingStationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A677C2A88FF5500962390 /* EVChargingStationDataService.swift */; };
+		E14A677F2A893B2C00962390 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A677E2A893B2C00962390 /* Action.swift */; };
+		E14A67812A893D6800962390 /* ChargingStationDetailModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14A67802A893D6800962390 /* ChargingStationDetailModalView.swift */; };
+		E169CBA42A920E3800C750EB /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169CBA32A920E3800C750EB /* OffsetModifier.swift */; };
+		E169CBA62A92117000C750EB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E169CBA52A92117000C750EB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E127FBFD2B4AB796001D425F /* ChargingStationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingStationDetailView.swift; sourceTree = "<group>"; };
 		E1482C642A88B4F900365602 /* EVChargingNepal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVChargingNepal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1482C672A88B4F900365602 /* EVChargingNepalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVChargingNepalApp.swift; sourceTree = "<group>"; };
-		E1482C692A88B4F900365602 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E1482C6B2A88B4FA00365602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1482C6E2A88B4FA00365602 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1482C752A88B50500365602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1482C802A88B6AA00365602 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E1482C822A88B73400365602 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		E1482C852A88B88700365602 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E1482C882A88B9E400365602 /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
+		E1482C8B2A88BC9C00365602 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
+		E1482C8D2A88C15000365602 /* SearchResultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultItem.swift; sourceTree = "<group>"; };
+		E1482C8F2A88CDE500365602 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E14A67772A88FB3000962390 /* EVChargingStationData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EVChargingStationData.json; sourceTree = "<group>"; };
+		E14A67792A88FB5400962390 /* EVChargingStationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVChargingStationItem.swift; sourceTree = "<group>"; };
+		E14A677C2A88FF5500962390 /* EVChargingStationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVChargingStationDataService.swift; sourceTree = "<group>"; };
+		E14A677E2A893B2C00962390 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		E14A67802A893D6800962390 /* ChargingStationDetailModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargingStationDetailModalView.swift; sourceTree = "<group>"; };
+		E169CBA32A920E3800C750EB /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+		E169CBA52A92117000C750EB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +79,11 @@
 		E1482C662A88B4F900365602 /* EVChargingNepal */ = {
 			isa = PBXGroup;
 			children = (
-				E1482C672A88B4F900365602 /* EVChargingNepalApp.swift */,
-				E1482C692A88B4F900365602 /* ContentView.swift */,
-				E1482C6B2A88B4FA00365602 /* Assets.xcassets */,
+				E1482C8A2A88BC8600365602 /* Services */,
+				E1482C872A88B9CD00365602 /* Extensions */,
+				E1482C842A88B87200365602 /* Managers */,
+				E1482C7D2A88B65200365602 /* Resources */,
+				E1482C772A88B5D200365602 /* Source */,
 				E1482C6D2A88B4FA00365602 /* Preview Content */,
 			);
 			path = EVChargingNepal;
@@ -65,6 +95,82 @@
 				E1482C6E2A88B4FA00365602 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1482C772A88B5D200365602 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E1482C672A88B4F900365602 /* EVChargingNepalApp.swift */,
+				E1482C7A2A88B5E400365602 /* Model */,
+				E1482C792A88B5E000365602 /* View */,
+				E1482C782A88B5D900365602 /* ViewModel */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E1482C782A88B5D900365602 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1482C822A88B73400365602 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1482C792A88B5E000365602 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E14A67802A893D6800962390 /* ChargingStationDetailModalView.swift */,
+				E1482C802A88B6AA00365602 /* MapView.swift */,
+				E1482C8F2A88CDE500365602 /* HomeView.swift */,
+				E169CBA52A92117000C750EB /* DetailView.swift */,
+				E127FBFD2B4AB796001D425F /* ChargingStationDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1482C7A2A88B5E400365602 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1482C8D2A88C15000365602 /* SearchResultItem.swift */,
+				E14A67792A88FB5400962390 /* EVChargingStationItem.swift */,
+				E14A677E2A893B2C00962390 /* Action.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1482C7D2A88B65200365602 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1482C752A88B50500365602 /* Assets.xcassets */,
+				E14A67772A88FB3000962390 /* EVChargingStationData.json */,
+				E14A677C2A88FF5500962390 /* EVChargingStationDataService.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1482C842A88B87200365602 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E1482C852A88B88700365602 /* LocationManager.swift */,
+				E169CBA32A920E3800C750EB /* OffsetModifier.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E1482C872A88B9CD00365602 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1482C882A88B9E400365602 /* MKCoordinateRegion+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E1482C8A2A88BC8600365602 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E1482C8B2A88BC9C00365602 /* LocalSearchService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14A67782A88FB3000962390 /* EVChargingStationData.json in Resources */,
+				E1482C762A88B50500365602 /* Assets.xcassets in Resources */,
 				E1482C6F2A88B4FA00365602 /* Preview Assets.xcassets in Resources */,
-				E1482C6C2A88B4FA00365602 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +244,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1482C6A2A88B4F900365602 /* ContentView.swift in Sources */,
+				E1482C812A88B6AA00365602 /* MapView.swift in Sources */,
+				E14A677F2A893B2C00962390 /* Action.swift in Sources */,
+				E14A67812A893D6800962390 /* ChargingStationDetailModalView.swift in Sources */,
+				E169CBA42A920E3800C750EB /* OffsetModifier.swift in Sources */,
+				E1482C8E2A88C15000365602 /* SearchResultItem.swift in Sources */,
+				E1482C902A88CDE500365602 /* HomeView.swift in Sources */,
+				E1482C862A88B88700365602 /* LocationManager.swift in Sources */,
+				E14A677A2A88FB5400962390 /* EVChargingStationItem.swift in Sources */,
+				E1482C892A88B9E400365602 /* MKCoordinateRegion+Extensions.swift in Sources */,
 				E1482C682A88B4F900365602 /* EVChargingNepalApp.swift in Sources */,
+				E1482C8C2A88BC9C00365602 /* LocalSearchService.swift in Sources */,
+				E127FBFE2B4AB796001D425F /* ChargingStationDetailView.swift in Sources */,
+				E1482C832A88B73400365602 /* MapViewModel.swift in Sources */,
+				E169CBA62A92117000C750EB /* DetailView.swift in Sources */,
+				E14A677D2A88FF5500962390 /* EVChargingStationDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +389,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EVChargingNepal/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = eVolt;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +421,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EVChargingNepal/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = eVolt;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

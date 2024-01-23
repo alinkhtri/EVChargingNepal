@@ -11,7 +11,8 @@ import SwiftUI
 struct EVChargingNepalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapView()
+                .environmentObject(LocalSearchService())
         }
     }
 }
